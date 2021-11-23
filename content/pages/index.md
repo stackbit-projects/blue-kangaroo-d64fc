@@ -4,7 +4,7 @@ layout: PageLayout
 sections:
   - type: HeroSection
     elementId: homepage-hero-1
-    colors: colors-h
+    colors: colors-a
     title: Love where you work
     text: >
       One platform, one community, getting to the bottom line of everything
