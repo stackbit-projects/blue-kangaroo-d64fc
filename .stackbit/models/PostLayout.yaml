@@ -15,8 +15,6 @@ fields:
     label: Author
     models:
       - Person
-    default: 
-      - content/data/team/desmond-eagle.json
   - type: string
     name: excerpt
     label: Excerpt
@@ -28,7 +26,7 @@ fields:
       - ImageBlock
     default:
       type: ImageBlock
-      url: /images/post-1.jpg
+      url: https://raw.githubusercontent.com/stackbit-themes/startup-nextjs-theme/main/public/images/post-1.jpg
       altText: Post thumbnail image
       caption: ""
   - type: list
