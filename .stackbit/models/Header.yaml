@@ -104,7 +104,6 @@ fields:
       models:
         - Button
         - Link
-    default:
     default: 
       - type: link
         url: /
