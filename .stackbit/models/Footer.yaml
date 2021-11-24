@@ -113,11 +113,7 @@ fields:
         showIcon: true
       - type: twitter
         icon: twitter
-<<<<<<< HEAD
         label: ""
-=======
-        label: ''
->>>>>>> 0f53d4903e0a9f145876c2f7063a3ae089e72bf7
         altText: twitter
         url: /
         elementId: false
