@@ -1,0 +1,40 @@
+name: PostLayout
+label: Post
+layout: PostLayout
+fields:
+  - type: string
+    name: title
+    label: Title
+    default: This is a blog post title
+    required: true
+  - type: date
+    name: date
+    label: Date
+  - type: reference
+    name: author
+    label: Author
+    models:
+      - Person
+    default: 
+      - content/data/team/desmond-eagle.json
+  - type: string
+    name: excerpt
+    label: Excerpt
+    default: This is the excerpt of your blog post visible in the post feed or featured posts.
+  - type: model
+    name: featuredImage
+    label: Featured image
+    models:
+      - ImageBlock
+    default:
+      type: ImageBlock
+      url: /images/post-1.jpeg
+      altText: Post thumbnail image
+      caption: ""
+  - type: list
+    name: bottomSections
+    label: Sections
+    items:
+      type: model
+      groups:
+        - sectionComponent
