@@ -109,10 +109,14 @@ fields:
         url: /
         name: Home
         label: Home
+        altText: Home
+        style: link
       - type: link
         url: /
         name: Blog
         label: Blog
+        altText: Blog
+        style: link
   - type: list
     name: secondaryLinks
     label: Secondary links
@@ -126,7 +130,8 @@ fields:
         url: /
         name: Sign up
         label: Sign up
-        style: Primary
+        altText: Sign up
+        style: primary
   - type: style
     name: styles
     styles:
