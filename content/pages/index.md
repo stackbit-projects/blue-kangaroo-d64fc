@@ -117,6 +117,7 @@ sections:
       - content/pages/blog/post-two.md
       - content/pages/blog/post-one.md
       - content/pages/blog/postlayout-rwsv8vdu7.md
+      - content/pages/blog/postlayout-u156t3n45.md
     showDate: false
     showAuthor: false
     styles:
