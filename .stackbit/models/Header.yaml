@@ -91,6 +91,7 @@ fields:
   - type: boolean
     name: isTitleVisible
     label: Display title
+    default: true
   - type: model
     name: logo
     label: Logo
