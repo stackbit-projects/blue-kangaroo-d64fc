@@ -111,7 +111,7 @@ fields:
         label: Home
         altText: Home
         style: link
-      - type: link
+      - type: Link
         url: /
         name: Blog
         label: Blog
