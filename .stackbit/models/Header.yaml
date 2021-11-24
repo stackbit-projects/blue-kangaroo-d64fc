@@ -104,15 +104,15 @@ fields:
       models:
         - Button
         - Link
-      default: 
-        - type: link
-          url: /
-          name: Home
-          label: Home
-        - type: link
-          url: /
-          name: Blog
-          label: Blog
+    default: 
+      - type: link
+        url: /
+        name: Home
+        label: Home
+      - type: link
+        url: /
+        name: Blog
+        label: Blog
   - type: list
     name: secondaryLinks
     label: Secondary links
@@ -121,12 +121,12 @@ fields:
       models:
         - Button
         - Link
-      default:
-        - type: Button
-          url: /
-          name: Sign up
-          label: Sign up
-          style: Primary
+    default:
+      - type: Button
+        url: /
+        name: Sign up
+        label: Sign up
+        style: Primary
   - type: style
     name: styles
     styles:
