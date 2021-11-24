@@ -28,7 +28,7 @@ fields:
       - ImageBlock
     default:
       type: ImageBlock
-      url: /images/post-1.jpeg
+      url: /images/post-1.jpg
       altText: Post thumbnail image
       caption: ""
   - type: list
