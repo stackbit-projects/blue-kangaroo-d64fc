@@ -136,7 +136,7 @@
                 "url": "/",
                 "name": "Sign up",
                 "label": "Sign up",
-                "style": "Primary"
+                "style": "primary"
             }
         ],
         "styles": {
