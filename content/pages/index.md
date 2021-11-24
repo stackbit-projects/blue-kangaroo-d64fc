@@ -116,7 +116,6 @@ sections:
       - content/pages/blog/post-three.md
       - content/pages/blog/post-two.md
       - content/pages/blog/post-one.md
-      - content/pages/blog/postlayout-27umojzf1.md
       - content/pages/blog/postlayout-rwsv8vdu7.md
       - content/pages/blog/postlayout-p9srvxcrc.md
     showDate: false
