@@ -1,0 +1,138 @@
+type: object
+name: Header
+label: Header
+labelField: title
+fieldGroups:
+  - name: styles
+    label: Styles
+  - name: settings
+    label: Settings
+fields:
+  - type: enum
+    name: headerVariant
+    group: styles
+    label: Header arrangement
+    options:
+      - label: Header with logo and primary links on the left
+        value: variant-a
+      - label: Header with logo on the left and primary links centered
+        value: variant-b
+      - label: Header with logo on the left and primary links on the right
+        value: variant-c
+      - label: Header with logo centered and primary links on the left
+        value: variant-d
+      - label: Header with logo centered and primary links centered
+        value: variant-e
+    default: variant-a
+  - type: enum
+    name: primaryColors
+    group: styles
+    label: Primary colors
+    options:
+      - label: Base foreground on white background
+        value: colors-a
+      - label: Primary foreground on white background
+        value: colors-b
+      - label: White foreground on base background
+        value: colors-c
+      - label: Primary foreground on base background
+        value: colors-d
+      - label: Base foreground on primary background
+        value: colors-e
+      - label: Base foreground on secondary background
+        value: colors-f
+      - label: Primary foreground on secondary background
+        value: colors-g
+      - label: Base foreground on complementary 1 background
+        value: colors-h
+      - label: Base foreground on complementary 2 background
+        value: colors-i
+    default: colors-a
+  - type: enum
+    name: secondaryColors
+    group: styles
+    label: Secondary colors (mobile menu)
+    options:
+      - label: Base foreground on white background
+        value: colors-a
+      - label: Primary foreground on white background
+        value: colors-b
+      - label: White foreground on base background
+        value: colors-c
+      - label: Primary foreground on base background
+        value: colors-d
+      - label: Base foreground on primary background
+        value: colors-e
+      - label: Base foreground on secondary background
+        value: colors-f
+      - label: Primary foreground on secondary background
+        value: colors-g
+      - label: Base foreground on complementary 1 background
+        value: colors-h
+      - label: Base foreground on complementary 2 background
+        value: colors-i
+    default: colors-a
+  - type: enum
+    name: backgroundWidth
+    group: styles
+    controlType: button-group
+    label: Background width
+    description: The background width of the header
+    options:
+      - label: Inset
+        value: inset
+      - label: Full
+        value: full
+    default: full
+  - type: string
+    name: title
+    label: Title
+    default: Your Brand
+  - type: boolean
+    name: isTitleVisible
+    label: Display title
+  - type: model
+    name: logo
+    label: Logo
+    models: [ImageBlock]
+  - type: list
+    name: primaryLinks
+    label: Primary navigation links
+    items:
+      type: model
+      models:
+        - Button
+        - Link
+      default: 
+        - type: link
+          url: /
+          name: Home
+          label: Home
+        - type: link
+          url: /
+          name: Blog
+          label: Blog
+  - type: list
+    name: secondaryLinks
+    label: Secondary links
+    items:
+      type: model
+      models:
+        - Button
+        - Link
+      default:
+        - type: Button
+          url: /
+          name: Sign up
+          label: Sign up
+          style: Primary
+  - type: style
+    name: styles
+    styles:
+      self:
+        width: ['narrow', 'wide', 'full']
+        padding: ['twt0:36', 'twb0:36']
+    default:
+      self:
+        width: narrow
+        padding: ['pt-5', 'pb-5']
