@@ -51,9 +51,9 @@ fields:
     default:
       default:
       type: ImageBlock
-      url: ""
+      url: "https://assets.stackbit.com/components/images/default/default-image.png"
       altText: "Your logo image"
-      caption: "https://assets.stackbit.com/components/images/default/default-image.png"
+      caption: ""
   - type: string
     name: title
     label: Title
