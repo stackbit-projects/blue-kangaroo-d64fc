@@ -105,7 +105,7 @@ fields:
         - Button
         - Link
     default: 
-      - type: link
+      - type: Link
         url: /
         name: Home
         label: Home
