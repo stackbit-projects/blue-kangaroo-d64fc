@@ -101,7 +101,7 @@
         "headerVariant": "variant-a",
         "primaryColors": "colors-a",
         "secondaryColors": "colors-a",
-        "backgroundWidth": "inset",
+        "backgroundWidth": "full",
         "title": "Your Brand",
         "isTitleVisible": true,
         "logo": {
