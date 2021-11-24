@@ -186,7 +186,7 @@ sections:
           title:
             textAlign: left
           text:
-            textAlign: center
+            textAlign: left
       - type: FeaturedItem
         title: Smarter
         text: >
